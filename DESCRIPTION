@@ -1,0 +1,13 @@
+Package: TempClim
+Type: Package
+Title: TempClim: a smart way to plot EPICA DOME C data
+Version: 1.0.0
+Author: Marzio De Corato
+Maintainer: The package maintainer <marzio.decorato@outlook.it>
+Description: This package allows to plot and analyze the EPICA DOME C  data about the temperature and CO2 time series (more data about other gases maybe provided in future update of the package). Also the data taken from the Milankovitch cycles are reported although the real effect on Earth temperature is contested among the scientific community .
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Depends: R (>= 3.1.0)
+Imports: Rcpp (>= 1.0.3),forecast,tseries,aTSA,shiny,bigmemory,shinythemes,ggplot2,gridExtra,lattice
